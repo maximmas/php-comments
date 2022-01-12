@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    overflow-x: hidden;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+html,
+body {
+    min-width: 320px;
+    position: relative;
+    opacity: 1;
+    background-color: $middle-grey;
+    font-family: $font-text;
+}
+
+ol, ul {
+    margin-bottom: 1.2rem;
+}
+
+ol {
+    padding-inline-start: 18px;
+}
+
+ul {
+    padding-inline-start: 16px;
+}
+
+em {
+    font-style: italic;
+}
+
+h1, h2, h3, h4, h5 {
+    line-height: 1em;
+    font-weight: 400;
+}
+
+textarea:hover,
+input[type="text"]:hover,
+textarea:active,
+input[type="text"]:active,
+textarea:focus,
+input[type="text"]:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.table,
+.form-control:focus {
+    outline: 0 !important;
+    box-shadow: none !important;
+}
+
+.container{
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 960px;
+}
