@@ -24,5 +24,6 @@ class Comments extends Controller
         $comment->save();
 
         return redirect()->route('home');
+
     }
 }
