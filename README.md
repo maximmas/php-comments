@@ -1,15 +1,9 @@
-Task: 
-1. Create simple comments page (check psd mockup /TODO folder)
-2. Add functionality
-3. Make tests 
+Sample of comments page using Laravel / Sail
 
-To check results:
-1. Clone repository
-2. Go to project folder
-3. Run command: 'sail up' 
+Commands:
 
-In case of error - stop local nginx
+`git clone git@github.com:maximmas/php-comments.git`
 
-Page will be available on 127.0.0.1 address
+`cd php-comments`
 
-To run test run command: 'sail test'
+`sail up`
